@@ -1,0 +1,36 @@
+<%
+   url = action_name == 'edit' ? a_article_path(@article) : a_articles_path
+   method = action_name == 'edit' ? "put" : "post"
+%>
+<%= form_for(@article, :url => url, :method=>method) do |f| %>
+    <table class="tablelist" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+      <%= render :partial => "form_body",
+                 :locals => {
+                         :f => f,
+                         :tdtitle => tdtitle
+                 } %>
+    </table>
+<% end %>
+<%content_for :head do%>
+    <link href="/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+<%end%>
+<% content_for :bottom do %>
+    <script type="text/javascript" charset="utf-8" src="/umeditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/umeditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="/umeditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript">
+        //实例化编辑器
+        var um = UM.getEditor('article_content',{
+            toolbar : [
+                'source | undo redo | bold italic underline strikethrough | superscript subscript | forecolor backcolor | removeformat |',
+                'insertorderedlist insertunorderedlist | selectall cleardoc paragraph | fontfamily fontsize' ,
+                '| justifyleft justifycenter justifyright justifyjustify |',
+                'link unlink'
+
+            ],
+            autoHeightEnabled : false,
+            initialFrameWidth:700, //初始化编辑器宽度,默认500
+            initialFrameHeight:300  //初始化编辑器高度,默认500
+        });
+    </script>
+<% end %>

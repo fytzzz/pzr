@@ -1,0 +1,40 @@
+<tr class="tableheader">
+  <td colspan="6" style="height:25px"><%= tdtitle %></td>
+</tr>
+<tr class="tablecell">
+  <td>名称&nbsp<span style="color:#F00;">* </span>:</td>
+  <td colspan="3">
+    <%= f.text_field :title, :size=>60, :class=>"formfield" %>
+  </td>
+</tr>
+<tr class="tablecell">
+  <td>价格&nbsp<span style="color:#F00;">* </span>:</td>
+  <td colspan="3">
+    <%= f.text_field :price, :size=>15, :class=>"formfield" %>&nbsp元
+  </td>
+</tr>
+<tr class="tablecell">
+  <td>产品图片&nbsp<span style="color:#F00;">* </span>:</td>
+  <td colspan="3">
+    <%= image_tag(@product.avatar_url(:thumb),:width=>"238",:height => "228") if @product.avatar? %>
+    <%= f.file_field :avatar ,:class=>"formfield"%>
+    <%= f.hidden_field :avatar_cache %>
+    <div class="field">
+      <%= f.label :remove_avatar %><br />
+      <%= f.check_box :remove_avatar %>
+    </div>
+  </td>
+</tr>
+
+<tr class="tablecell">
+  <td>是否可见:</td>
+  <td colspan="6">
+    <%= f.select :visible, Setting[:visible_types].invert %>
+  </td>
+</tr>
+<tr class="tablecell">
+  <td colspan="7" align="center">
+    <%= hidden_field_tag :act, action_name %>
+    <input type="submit" name="submit" id="submit" value="提交" class="formbutton">
+    <a class="formbutton" style='padding:5px 7px 1px 7px;color:#FFF;' href='/a/products/new'>重置</a>
+</tr>

@@ -1,0 +1,83 @@
+<%= form_for(@search, :url => a_products_path, :method=>"post") do |f| %>
+    <table class="tablelist" width="100%" height="25" cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+      <tr class="tableheader">
+        <td nowrap>
+          <input name="chkall" value="on" type="checkbox" id='chkall'>
+          <input name="submit_delall" value="批量删除" type="submit" id='delall_selected'>
+        </td>
+        <td>产品名称</td>
+        <td>价格</td>
+        <td nowrap>创建时间</td>
+        <td nowrap>是否可见</td>
+        <td nowrap>操作</td>
+      </tr>
+      <tr class="tablecell">
+        <td colspan="7">
+          <%= render :partial => "meta_search_bar", :locals => {:f => f} %>
+        </td>
+      </tr>
+      <% @products.each do |product| %>
+          <tr class="tablecell">
+            <td nowrap><input type="checkbox" name="ids[]" value="<%= product.id %>"></td>
+            <td><%= link_to(product.title, a_product_path(product)) %></td>
+            <td><%= product.price %>元</td>
+            <td><%= format_time(product.created_at) %></td>
+            <td>
+              <span><%= radio_button_tag "change_visible_#{product.id}", "1", product.visible == 1, :for=>"#{change_visible_a_product_path(product, :v=>1)}" %>
+                显示</span>
+              <span><%= radio_button_tag "change_visible_#{product.id}", "0", product.visible == 0, :for=>"#{change_visible_a_product_path(product, :v=>0)}" %>
+                隐藏</span>
+            </td>
+            <td nowrap><%=link_to "编辑",edit_a_product_path(product)%></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+<% end %>
+<%= paginate @products %>
+
+<% content_for :head do %>
+    <script type="text/javascript">
+        $(function() {
+            //全选
+            $('#chkall').click(function() {
+                if (this.checked) {
+                    $(':checkbox[id!=chkall]').each(function(){
+                        this.checked = true;
+                    });
+                } else {
+                    $(':checkbox[id!=chkall]').each(function(){
+                        this.checked = false;
+                    });
+                }
+            });
+
+            //删除多篇页面
+            $("#delall_selected").click(function() {
+                var items = $(':checkbox[name=ids[]]:checked');
+                var ids = [];
+                if (items.size() < 1) {
+                    alert("你还没有选择删除选项,请先选择。");
+                    return false;
+                } else {
+                    return confirm("你确定执行删除操作吗？");
+                }
+            });
+
+            //显示与隐藏
+            $("input:radio[name*=change_visible]").click(function() {
+                var url = $(this).attr("for");
+                var item = $(this);
+
+                if (confirm("你确定执行该操作?")) {
+                    $.get(url, function(result) {
+                        if (result == 'ok') {
+                            confirm("修改成功!")
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+<% end %>

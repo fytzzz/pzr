@@ -1,0 +1,10 @@
+Use this README file to introduce your application and point to useful places in the API for learning more.
+Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+TODO LIST
+1.login in / login out
+2.product manager
+3.content manager
+4.user manager
+5.config manager
+6.font page

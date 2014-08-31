@@ -1,0 +1,45 @@
+<div class="leftDiv" style="position:relative">
+  <div class="bln" style="">
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+  </div>
+        	<span class="xcc">
+            <b>宣传册</b></span>
+  <a href="javascript:showbox(2)"><img src="/assets/xcc/普之润宣传画册111.jpg" style="margin: 10px;" width="210"/></a>
+
+  <div class="bln" style="margin-top:350px">
+
+  </div>
+        	<span class="xcc">
+            <b>宣传册</b></span>
+  <a href="javascript:showbox(1)"><img border="0" src="/assets/xcc/1.jpg" style="margin:10px;" width="210"/></a>
+</div>
+
+<div class="rightDiv">
+  <div class="search" style="width:750px;float:right;padding-bottom:10px; position:relative;line-height:30px; ">
+    <div class="bln" style="">
+      <div class="d1"></div>
+      <div class="d2"></div>
+      <div class="d3"></div>
+    </div>
+    <b>产品展示</b>
+                <span style="float:right; ">
+                <%= form_for(@search, :url => home_index_path, :method => "post") do |f| %>
+                      <%= f.text_field :title_contains, :style => "margin-top:5px;width:150px;height:16px" %>
+                      <input type="submit" value="搜索" style="margin-top: 5px;margin-right:5px;"/>
+                    <% end %>
+                </span>
+  </div>
+  <div class="pageinfo">
+    <%= paginate @products %>
+  </div>
+  <% if (!@products.blank?) %>
+      <%= render :partial => "product_item", :collection => @products %>
+  <% else %>
+      抱歉， 没有搜索到您想要的相关产品。
+  <% end %>
+  <div class="pageinfo">
+    <%= paginate @products %>
+  </div>
+</div>

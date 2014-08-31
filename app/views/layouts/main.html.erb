@@ -1,0 +1,76 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>首页</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= yield :head %>
+  <style type="text/css">
+      .pageinfo .pagination a, .footer a {
+          color: #8f2227;
+      }
+  </style>
+</head>
+<body style="background-color:#FFF">
+<div class="menuDiv"></div>
+<div class="bg-fix"></div>
+<div class="mainDiv" style="height:100%;width:1000px;margin:0 auto; position:relative;z-index:2">
+  <div class="menuTab">
+        <span class="menu">走进普之润
+          <%= menu_link_tag(@menus[1]) %>
+        </span>
+        <span class="menu">关于普之润
+          <%= menu_link_tag(@menus[2]) %>
+        </span>
+  </div>
+  <div class="logo"><%= image_tag "logo-red.png",{:id=>"logo",:style => "width:180px;margin-top:-15px;"} %></div>
+  <div class="menuTab">
+        <span class="menu">加盟合作润
+          <%= menu_link_tag(@menus[3]) %>
+        </span>
+    	<span class="menu">客户服务
+          <%= menu_link_tag(@menus[4]) %>
+          <!--<li><a href="tencent://Message/?Uin=1253533284&websiteName=q-zone.qq.com&Menu=yes">在线留言</a></li>-->
+        </span>
+  </div>
+  <%= yield %>
+  <div class="footer">
+    <%= footer_link_tag(@menus[5]) %>
+  </div>
+</div>
+<div class="qq" style=" position:fixed;top:44%;left:20px;z-index:500;">
+  <a href="tencent://Message/?Uin=1253533284&websiteName=q-zone.qq.com&Menu=yes"><img border="0" SRC="/assets/qq.jpg" width=50 alt="点击这里给我发消息"><br/>联系客服</a>
+</div>
+<div class="sb_bg_div"></div>
+<div class="sb_box_div">
+  <div class="movediv"></div>
+  <span class="sb_close"></span>
+
+  <div id="sb_frame"><img src="/assets/xcc/1.jpg"/></div>
+  <div class="picleft"></div>
+  <div class="picright"></div>
+</div>
+<%= javascript_include_tag "application" %>
+<script type="text/javascript">
+    $(".footer a,span.menu li,.leftDiv .daohan li").click(function(){
+        var pageId  = $(this).attr("data-id");
+        if($(".leftDiv").has("ul").size()>0){
+            $.get("/pages/" + pageId,{format:'json'},function(data){
+                try{
+                    $("#rightTitle").html(data.title);
+                    $("#rightContent").html(data.content);
+                }catch(e){
+                   window.console&&window.console.log(e.message);
+                }
+            });
+        }else{
+            window.location.href = "/pages/"+pageId;
+        }
+    });
+    $("#logo").click(function(){
+        window.location.href = "/"
+    });
+</script>
+</body>
+</html>

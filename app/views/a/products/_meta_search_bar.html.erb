@@ -1,0 +1,15 @@
+<table class="tablelist" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr class="tablecell">
+    <td>产品名称:</td>
+    <td>
+      <%= f.text_field :title_contains, :class=>"formfield" %>
+    </td>
+  </tr>
+  <tr class="tablecell">
+    <td colspan="6" align="center">
+      <input type="submit" name="submit" id="submit" value="提交" class="formbutton">
+      <%= hidden_field_tag :act, action_name %>
+  </tr>
+</table>
+
+

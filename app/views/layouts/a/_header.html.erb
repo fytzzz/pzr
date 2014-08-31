@@ -1,0 +1,12 @@
+<div id="header">
+  <div class="topbar">
+    <table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+      <tr>
+        <td class="topLinksLeft">普之润后台控制面板</td>
+        <td class="topLinks">欢迎您 <%=link_to "修改", edit_user_password_path(1)%>
+          [<a href="/a">后台首页</a>] [<a href="/">站点首页</a>] [<%= link_to '退出登录', destroy_user_session_path, :method => :delete %>]
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

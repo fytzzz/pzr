@@ -1,0 +1,13 @@
+<%
+   url = action_name == 'edit' ? a_product_path(@product) : a_products_path
+   method = action_name == 'edit' ? "put" : "post"
+%>
+<%= form_for(@product, :url => url, :method=>method) do |f| %>
+    <table class="tablelist" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+      <%= render :partial => "form_body",
+                 :locals => {
+                         :f => f,
+                         :tdtitle => tdtitle
+                 } %>
+    </table>
+<% end %>

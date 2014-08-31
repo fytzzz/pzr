@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ada2aa0-1cba-4986-845c-19aaf80a7ef0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/plugins/sss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/960.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/master.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.bankup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor-zh-cn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/angry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/awkward.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/bye.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/crazy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/curse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/cute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/despise.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/doubt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/envy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/fastcry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/knock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/laugh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/mad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/ohmy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/panic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/proud.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/quiet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/sad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/shutup.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/shy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/sleep.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/struggle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/titter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/tongue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/wail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/default/wronged.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/alien.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/angel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/angry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/bandit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/biglaugh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/blink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/blush.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/depres.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/devil.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/glare.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/joyful.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/laugh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/magician.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/ninja.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/pinch.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/police.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/sad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/sick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/sideways.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/sleep.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/tongue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/unsure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/w00t.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/whistling.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/wondering.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/ipb/wub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/msn/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/angry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/bad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/blush.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/brokenheart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/bye.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/coffee.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/curse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/cute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/devil.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/envy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/gift.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/good.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/laugh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/love.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/music.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/rose.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/sad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/shocked.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/shout.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/sick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/sleepy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/soccer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/sweat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/tired.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/tongue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/victory.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_emot/pidgin/wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/bg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/bg2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/btnbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/btnbgr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/clear.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/img/start.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/multiupload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/multiupload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/multiupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/swfupload/swfupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/multiupload/swfupload/swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_plugins/ubb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/tag-pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/waiting.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/img/wmp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/tag-pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/waiting.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/img/wmp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/nostyle/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/buttonbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/tag-pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/waiting.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/img/wmp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007blue/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/buttonbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/tag-pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/waiting.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/img/wmp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/o2007silver/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/buttonbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/progressbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/tag-pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/titlebg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/waiting.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/img/wmp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xheditor/xheditor_skin/vista/ui.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__pzr.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__pzr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__pzr.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__pzr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__pzr.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__pzr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__pzr.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__pzr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+    </list>
+    <ignored path="pzr.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pzr" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/views/layouts/a/base.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/a/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/a/application.js" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/public/404.html" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/userLogin.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/userLogin.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/plugins/showbox.js" />
+        <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/main.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1280" />
+    <option name="height" value="670" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pzr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\rails3\pzr\app\assets\javascripts\a" />
+      <recent name="D:\app\rails3\pzr\app\views\layouts" />
+      <recent name="D:\app\rails3\pzr\public" />
+      <recent name="D:\app\rails3\pzr\app\assets\stylesheets\a" />
+      <recent name="D:\app\rails3\pzr\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: pzr">
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: pzr" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: pzr" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: pzr" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: pzr" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ada2aa0-1cba-4986-845c-19aaf80a7ef0" name="Default" comment="" />
+      <created>1403794265755</created>
+      <updated>1403794265755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1280" height="670" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25408497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/plugins/showbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml.openshift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/plugins/showbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="9" selection-start="1932" selection-end="1932" vertical-scroll-proportion="0.33195877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="58" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="462" selection-end="462" vertical-scroll-proportion="0.5252918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23346303">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

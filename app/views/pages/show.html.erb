@@ -1,0 +1,27 @@
+<div class="leftDiv">
+  <div class="daohan">
+    <span>走进普之润 <label>△</label></span>
+    <%= menu_link_tag(@menus[1]) %>
+    <span>关于普之润 <label>△</label></span>
+    <%= menu_link_tag(@menus[2]) %>
+    <span>加盟合作润 <label>△</label></span>
+    <%= menu_link_tag(@menus[3]) %>
+    <span>客服服务 <label>△</label></span>
+    <%= menu_link_tag(@menus[4]) %>
+  </div>
+</div>
+
+<div class="rightDiv">
+  <div class="search" style="width:750px;float:right;padding-bottom:10px; position:relative;line-height:30px; ">
+    <div class="bln" style="">
+      <div class="d1"></div>
+      <div class="d2"></div>
+      <div class="d3"></div>
+    </div>
+    <b id="rightTitle"><%=@page.title%></b>
+    <a href="/" style="float:right;margin-right:5px;color:#FFF;font-weight:bold;">返回首页</a>
+    <div id="rightContent">
+      <%= @page.content.blank? ? "" : @page.content.html_safe %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<table class="tablelist" width="100%" height="25" cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+  <tr class="tableheader">
+    <td colspan="2">查看页面<%= link_to("编辑", edit_a_product_path(@product), :class=>"icon icon-edit",:style=>"float:right;") %></td>
+  </tr>
+  <tr class="tablecell">
+    <td>产品名称:</td>
+    <td><%= @product.title %></td>
+  </tr>
+  <tr class="tablecell">
+    <td>价格:</td>
+    <td><%= @product.price %></td>
+  </tr>
+  <tr class="tablecell">
+    <td>产品图片:</td>
+    <td><%= image_tag(@product.avatar_url(:thumb),:width=>"238",:height => "228") if @product.avatar? %></td>
+  </tr>
+  <tr class="tablecell">
+    <td>是否可见:</td>
+    <td><%= @product.visible_txt %></td>
+  </tr>
+  <tr class="tablecell">
+    <td>创建时间:</td>
+    <td><%= format_time(@product.created_at) %></td>
+  </tr>
+  </tbody>
+</table>

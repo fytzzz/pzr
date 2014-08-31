@@ -1,0 +1,42 @@
+# Copyright (C) 2011-2012  fyt
+
+# DO NOT MODIFY THIS FILE !!!!!!!!!
+# Settings can be defined through the application in Admin -> Settings
+app_title:
+  default: '普之润'
+app_author:
+  default: foyoto
+site_url:
+  default: 'http://www.58wzsc.com'
+portalitems:
+  serialized: true
+  default:
+    item1: {caption: '首页',url: '/', class: 'grid_1',controller_name: 'home'}
+adminitems:
+  serialized: true
+  default:
+    main: '网站内容管理'
+visible_types:  #是否可见类型
+  serialized: true
+  default:
+    1 : '显示'
+    0 : '隐藏'
+time_format:
+  default: '%Y-%m-%d %H:%M'
+date_format:
+  default: '%Y-%m-%d'
+category_types:
+  serialized: true
+  default:
+    1 : '走进普之润'
+    2 : '关于普之润'
+    3 : '加盟合作润'
+    4 : '客户服务'
+    5 : '底部'
+aboutme:
+  default: |-
+     Introduce youself.
+footer:
+  serialized: true
+  default:
+    author: foyoto@gmail.com&zhihangking@163.com

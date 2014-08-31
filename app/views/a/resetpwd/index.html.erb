@@ -1,0 +1,52 @@
+<%= form_tag("/a/resetpwd", :method=>"post") do |f| %>
+    <table class="tablelist" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tr class="tableheader">
+        <td colspan="6" style="height:25px">&nbsp修改密码</td>
+      </tr>
+      <tr class="tablecell">
+        <td>密码&nbsp<span style="color:#F00;">* </span>:</td>
+        <td colspan="3">
+          <input class="formfield" id="pwd" name="pwd" size="60" type="password">
+        </td>
+      </tr>
+      <tr class="tablecell">
+        <td>重新输入密码&nbsp<span style="color:#F00;">* </span>:</td>
+        <td colspan="3">
+          <input class="formfield" id="cpwd" name="cpwd" size="60" type="password">
+        </td>
+      </tr>
+      <tr class="tablecell">
+        <td colspan="7" align="center">
+          <input type="submit" name="submit" id="submit" value="提交" class="formbutton">
+          <a class="formbutton" style='padding:5px 7px 1px 7px;color:#FFF;' href='/a/resetpwd'>重置</a>（密码不能少于8位）
+      </tr>
+    </table>
+<% end %>
+<%content_for :bottom do%>
+    <script type="text/javascript">
+        $("#submit").click(function(){
+            var pwd = $.trim($("#pwd").val());
+            var cpwd = $.trim($("#cpwd").val());
+
+            if(!pwd==true){
+                alert("密码不能为空！");
+                return false;
+            }
+            if(pwd.length<8){
+                alert("密码长度不能少于8位！");
+                return false;
+            }
+            if(!cpwd==true){
+                alert("重新输入密码不能为空！");
+                return false;
+            }
+            if(cpwd.length<8){
+                alert("密码长度不能少于8位！");
+                return false;
+            }
+            this.submit;
+        });
+    </script>
+<%end%>
+
+
